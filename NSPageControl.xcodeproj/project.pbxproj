@@ -178,6 +178,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 736850A31CA40F1C00E2FEA0;
@@ -378,7 +379,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -399,7 +400,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nerd0geek1.NSPageControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -439,6 +440,7 @@
 				7364B6601E4D400200E5E9E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		736850A71CA40F1C00E2FEA0 /* Build configuration list for PBXProject "NSPageControl" */ = {
 			isa = XCConfigurationList;

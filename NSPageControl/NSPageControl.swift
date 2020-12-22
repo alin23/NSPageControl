@@ -92,7 +92,7 @@ public class NSPageControl: NSView {
         let fillColorAnimation: CABasicAnimation = CABasicAnimation(keyPath: "fillColor")
         fillColorAnimation.toValue    = color.cgColor
         fillColorAnimation.duration   = animationDuration
-        fillColorAnimation.fillMode = kCAFillModeForwards
+        fillColorAnimation.fillMode = CAMediaTimingFillMode.forwards
         fillColorAnimation.isRemovedOnCompletion = false
         return fillColorAnimation
     }
