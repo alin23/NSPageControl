@@ -19,7 +19,7 @@ class NSPageControlTests: XCTestCase {
     }
 
     func testToSetValidCurrentPage() {
-        let pageControl: NSPageControl = NSPageControl(frame: NSRect.init(x: 0, y: 0, width: 100, height: 10))
+        let pageControl = NSPageControl(frame: NSRect(x: 0, y: 0, width: 100, height: 10))
         pageControl.numberOfPages = 3
         pageControl.draw(pageControl.frame)
         XCTAssertTrue(pageControl.currentPage == 0)
@@ -30,7 +30,7 @@ class NSPageControlTests: XCTestCase {
     }
 
     func testToSetInvalidCurrentPage() {
-        let pageControl: NSPageControl = NSPageControl(frame: NSRect.init(x: 0, y: 0, width: 100, height: 10))
+        let pageControl = NSPageControl(frame: NSRect(x: 0, y: 0, width: 100, height: 10))
         pageControl.numberOfPages = 3
         pageControl.draw(pageControl.frame)
         XCTAssertTrue(pageControl.currentPage == 0)
