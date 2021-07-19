@@ -175,11 +175,11 @@
 			};
 			buildConfigurationList = 736850A71CA40F1C00E2FEA0 /* Build configuration list for PBXProject "NSPageControl" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = 736850A31CA40F1C00E2FEA0;
 			productRefGroup = 736850AE1CA40F1C00E2FEA0 /* Products */;
